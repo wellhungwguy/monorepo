@@ -1,5 +1,5 @@
 {
-  "name": "dependency-graph-snek-target-nodejs-webshit",
+  "name": "monorepo-nodejs",
   "version": "0.0.1",
   "description": "YMMV building a node app from this but boy does it test DG Insights well",
   "keywords": [
@@ -11,14 +11,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/github/dependency-graph-snek-target/"
+    "url": "https://github.com/elireisman/monorepo"
   },
   "scripts": {
     "test-all": "npm run test"
   },
   "main": "./index.js",
   "files": [
-    "index.js",
+    "index.js"
   ],
   "type": "commonjs",
   "dependencies": {
