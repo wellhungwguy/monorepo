@@ -1,4 +1,4 @@
-module github.com/github/dependency-graph-snek-target
+module github.com/elireisman/monorepo
 
 go 1.17
 
