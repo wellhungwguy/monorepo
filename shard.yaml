@@ -1,0 +1,19 @@
+name: monorepo
+version: 1.0
+
+
+authors:
+  - Eli Reisman
+  - Jakob Homan
+
+dependencies:
+  openssl:
+    github: datanoise/openssl.cr
+    branch: master
+
+development_dependencies:
+  minitest:
+    git: https://github.com/ysbaddaden/minitest.cr.git
+    version: ~> 0.3.1
+
+license: MIT
